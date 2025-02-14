@@ -1,14 +1,13 @@
 # Site Settings
-title: Start Jekyll
-email: taniarascia@gmail.com
+title: Thomas Zheng - Personal Portfolio
+email: email@email.com
 description: >
-  A guide to getting started with Jekyll.
+  My website
 # baseurl: '/startjekyll'
 baseurl:
 url: 'https://thomas-hy-zheng.github.io'
-twitter_username: taniarascia
-github_username:  taniarascia
-theme: jekyll-theme-minimal
+twitter_username: 
+github_username:  thomas-hy-zheng
 # Build Settings
 sass:
   sass_dir: _sass
