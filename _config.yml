@@ -3,7 +3,8 @@ title: Start Jekyll
 email: taniarascia@gmail.com
 description: >
   A guide to getting started with Jekyll.
-baseurl: '/startjekyll'
+# baseurl: '/startjekyll'
+baseurl:
 url: 'https://thomas-hy-zheng.github.io'
 twitter_username: taniarascia
 github_username:  taniarascia
