@@ -8,6 +8,7 @@ baseurl:
 url: 'https://thomas-hy-zheng.github.io'
 twitter_username: taniarascia
 github_username:  taniarascia
+theme: jekyll-theme-minimal
 # Build Settings
 sass:
   sass_dir: _sass
