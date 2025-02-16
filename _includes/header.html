@@ -3,9 +3,8 @@
 		<nav>
 			<ul>
 				<li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
-				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
+				<li><a href="{{ "/research" | prepend: site.baseurl }}">Research</a></li>
+				<li><a href="{{ "/education" | prepend: site.baseurl }}">Education</a></li>
 				<li><a href="{{ "/blog" | prepend: site.baseurl }}">FSAE Blog</a></li>
 			</ul>
 			</li>

@@ -11,6 +11,6 @@ github_username:  thomas-hy-zheng
 # Build Settings
 sass:
   sass_dir: _sass
-include: ['_pages']
+include: ['_pages', '_research']
 kramdown:
   input: GFM

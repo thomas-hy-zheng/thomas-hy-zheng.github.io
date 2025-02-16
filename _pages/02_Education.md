@@ -30,9 +30,6 @@ Citadel Securities Prize, for highest average mark in data science in cohort
 (July 2023)
 ```
 
-
-
-
 ### Courses:
 Here are a few nice course marks I have attained.
 ```
