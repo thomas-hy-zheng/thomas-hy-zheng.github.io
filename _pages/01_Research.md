@@ -14,7 +14,7 @@ Here are some interesting research projects.
 ### Hidden Markov Models for Analysing Stress Levels in Working Dogs
 *Supervised by A/Prof Clara Grazian, funded by Australian Mathematical Sciences Institute.*  
  We explore novel methods for improving the analysis of multivariate hidden Markov models on time series with both fast and slow dynamics. We also explore data-cleaning methods for very noisy biological sensor data.  
-[Summary]({{ site.baseurl }}/research/pitman-summ) \| [Full Report]({{ site.baseurl }}/research/pitman-full)
+[Summary]({{ site.baseurl }}/research/hmm-summ) \| [Full Report]({{ site.baseurl }}/research/hmm-full)
 
 ### Bayesian Model Selection for Logistic Regression via Approximate Bayesian Interference
 *Supervised by A/Prof John Ormerod.*  

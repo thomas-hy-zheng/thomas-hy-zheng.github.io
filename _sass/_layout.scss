@@ -112,3 +112,18 @@ footer {
 	text-align: center;
 	padding: 40px;
 }
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  th, td {
+	border: 1px solid #000; /* Adjust the color as needed */
+	padding: 8px; /* Adjust padding as needed */
+	text-align: left; /* Align text as needed */
+  }
+  
+  th {
+	background-color: #E7EDF4; /* Optional: Add a background color to headers */
+  }
