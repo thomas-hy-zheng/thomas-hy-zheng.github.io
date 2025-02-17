@@ -39,7 +39,7 @@ Of course, this idea can be generalised to any number of subpopulations and any 
 
 <div class="notice">
   <h4>Definition (Mixture Model)</h4>
-  <p>For some number of mixture components $t$; and distributions $R_j$ with weight $\pi_j$ for each $j=1,\dots, t$, the resulting mixture model is:
+  <p>For some number of mixture components $t$; and distributions $R_j$ with weight $\pi_j$ for each $j=1,\dots, t$, the resulting mixture model has distribution
 \[ X_i\sim P = \sum_{j=1}^t \pi_j R_j\]</p>
 </div>
 
@@ -56,13 +56,13 @@ Does that mean we simply choose the number of clusters that we want to see, and 
 
 No!
 
-Fortunately, statisticians have developed many ways of estimating the number of mixture components. A popular method amongst Bayesians is to use a Dirichlet Process Mixture Model (DPMM) to simultaneously estimate the number of mixture components and fit a mixture model.
+Fortunately, statisticians have developed many ways of estimating the number of mixture components. A popular method amongst Bayesians is to use a Dirichlet Process Mixture Model (DPMM) to simultaneously estimate the number of mixture components and fit a mixture model. Roughly, the idea is to create a mixture model with an infinite number of components, but at inference time, collapse the model so that only finitely many components have any mass.
 
-We first introduce the Dirichlet distribution. 
+To make sense of it all, we first introduce the Dirichlet distribution. 
 
 <div class="notice">
   <h4>Definition (Dirichlet Distribution)</h4>
-  <p>Let $Z_1,\dots, Z_k$ be independent RVs with $Z_j \sim \Gamma(\alpha_j,1)$. The Dirichlet distribution with parameter $(\alpha_1,\dots, \alpha_k)$, denoted $\mathrm{Dir}(\alpha_1,\dots,\alpha_k)$ is defined as the distribution of $(Y_1,\dots, Y_k)$ where
+  <p>Let $Z_1,\dots, Z_k$ be independent random variables with $Z_j \sim \Gamma(\alpha_j,1)$. The Dirichlet distribution with parameter $(\alpha_1,\dots, \alpha_k)$, denoted $\mathrm{Dir}(\alpha_1,\dots,\alpha_k)$ is defined as the distribution of $(Y_1,\dots, Y_k)$ where
     \[ Y_j = \frac{Z_j}{\sum_{i=1}^{k} Z_i}\]
   </p>
 </div>
@@ -78,7 +78,7 @@ Now we define the Dirichlet process. It has two parameters, and we can think of 
     <li>$Q_0$ is the distribution from which we draw our probability distributions.</li>
     <li>$\alpha > 0$ controls the number of components.</li>
   </ul>
-    Call $P \sim \mathrm{DP}(\alpha, Q_0)$ a Dirichlet Process if, for every partition $B_1,\dots, B_k$ of the sample space, we have $(Q_0(B_1),\dots, Q_0(B_k))\sim \mathrm{Dir}(\alpha Q_0(B_1) , \dots, \alpha Q_0(B_k))$.
+    Call $P \sim \mathrm{DP}(\alpha, Q_0)$ a Dirichlet process if, for every partition $B_1,\dots, B_k$ of the sample space, we have $(Q_0(B_1),\dots, Q_0(B_k))\sim \mathrm{Dir}(\alpha Q_0(B_1) , \dots, \alpha Q_0(B_k))$.
   </p>
   <br>
 </div>
@@ -112,20 +112,20 @@ This behaviour is also called *preferential attachment*. Note that there is alwa
 Finally we introduce the Dirichlet process mixture model:
 
 <div class="notice">
-    <h4>Definition (Dirichlet Process Model)</h4>
+    <h4>Definition (Dirichlet Process Mixture Model)</h4>
     <p> For the following parameters,
     <ul>
         <li>$P\sim\mathrm{DP}(\alpha,Q_0)$</li>
         <li>Cluster parameters $\theta_i\mid P\sim P$ for $i=1,2\dots$</li>
     </ul>
-        Define an infinite mixture model with data $X_j \sim \sum_{i=1}^{\infty} \delta_{\theta_j} R_{\theta_j}$ for $j=1,2\dots$.
+        Define an infinite mixture model with data $X_j \sim \sum_{i=1}^{\infty} \delta_{\theta_j} R_{\theta_j}$ for $j=1,2\dots$. Call this a Dirichlet process mixture model.
     </p>
     <br>
 </div>
 
-Recall again that even though the DPMM is an infinite sum, the mass is always at a finite number of components.
+Recall again that even though the Dirichlet process mixture model is an infinite sum, the mass is always at a finite number of components.
 
-Now let's explore how a DPM based model works in practice.  
+Now let's explore how clustering and inference with a Dirichlet process mixture model works in practice.  
 
 Suppose we have data generated from a mixture of bivariate normal distributions, and we have already clustered the existing points into a blue and an orange cluster, and fitted bivariate normal distributions to each cluster. This is our prior information. Now say that we have just observed a new data point $X_k$.
 
@@ -150,7 +150,7 @@ In a Pitman-Yor $\mathrm{PY}(\alpha, d, Q_0)$ process, the component membership 
 
 $$\mathbb{P}(c_k = i \mid \mathbf{c}_{-k} ,\alpha, d)  = \frac{n_i- d}{n+\alpha} \quad \text{and} \quad  1- \sum_{i=1}^t\mathbb{P}(c_k = i \mid \mathbf{c}_{-k} ,\alpha) = \frac{td + \alpha}{n+\alpha} \,,$$
 
-In practice, this change means the expected cluster sizes of the Pitman-Yor model decreases with a power law relationship compared to an exponential decay with the Dirichlet Process.
+In practice, this change means the expected cluster sizes of the Pitman-Yor model decreases with a power law relationship compared to an exponential decay with the Dirichlet process.
 
 <figure>
     <img src="/_research/pitman-pics/s7-py.png" alt="power law decay of PY" style="width:100%">
@@ -168,7 +168,7 @@ The answer to the first is *No,* if $\alpha, d$ are held constant (Miller and Ha
 
 
 Q2:Can we get consistency if $\alpha \mid \pi$ for some prior $\pi$?  
-Surprisingly, the answer is *Yes,* for Dirichlet Processes.s (Ascolani et al. 2023) 
+Surprisingly, the answer is *Yes,* for Dirichlet processes.s (Ascolani et al. 2023) 
 
 
 Q3: Can we extend this to Pitman Yor Processes?   
