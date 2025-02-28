@@ -9,14 +9,12 @@ usemathjax: true
 
 This is a short summary and introduction to the work. For the full project, see [here]({{ site.baseurl }}/research/pitman-full).
 
-
 ### Table of Contents
 
 1. [Background](#background)
 2. [Questions](#questions)
 3. [Literature Review](#literature-review)
 4. [Our Extension](#our-extension)
-
 
 ### Background
 To motivate the ideas behind this project, lets say that we are biologists, and we have collected some data about the heights of pea plants. Plotting our data in a histogram, we see this.

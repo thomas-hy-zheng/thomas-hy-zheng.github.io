@@ -9,7 +9,7 @@ usemathjax: true
 
 ### Supervised by A/Prof Clara Grazian ~ March 2024
 
-For a summary of the project, see [here]({{ site.baseurl }}/research/pitman-summ).
+For a summary of the project, see [here]({{ site.baseurl }}/research/hmm-summ).
 
 For the original report as uploaded to AMSI, see [here](https://srs.amsi.org.au/student-profile/thomas-hanyang-zheng/).
 
