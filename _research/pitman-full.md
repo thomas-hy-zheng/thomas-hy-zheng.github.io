@@ -716,39 +716,39 @@ Finally, we identified some avenues for future research, which include exploring
 
 ### References
 
-[Aldous, 1985] D.J. Aldous. Exchangeability and related topics. In: Hennequin, P.L. (eds) Ecole d'\'Et\'e de Probabilit\'es de Saint-Flour XIII - 1983. Lecture Notes in Mathematics, Vol 1117. Springer, Berlin, Heidelberg. 
+**[Aldous, 1985]** D.J. Aldous. Exchangeability and related topics. In: Hennequin, P.L. (eds) Ecole d'\'Et\'e de Probabilit\'es de Saint-Flour XIII - 1983. Lecture Notes in Mathematics, Vol 1117. Springer, Berlin, Heidelberg. 
 `doi:10.1007/BFb0099421`
 
-[Ascolani et al., 2023] F. Ascolani, A. Lijoi, G. Rebaudo and G. Zanella. Clustering consistency with Dirichlet process mixtures. Biometrika, 110(2), 551-558, 2023
+**[Ascolani et al., 2023]** F. Ascolani, A. Lijoi, G. Rebaudo and G. Zanella. Clustering consistency with Dirichlet process mixtures. Biometrika, 110(2), 551-558, 2023
 `doi:10.1093/biomet/asac051`
 
-[Ferguson, 1973] T. S. Ferguson. A Bayesian analysis of some nonparametric problems. The Annals of Statistics, pages 209-230, 1973.
+**[Ferguson, 1973]** T. S. Ferguson. A Bayesian analysis of some nonparametric problems. The Annals of Statistics, pages 209-230, 1973.
 `doi:10.1214/aos/1176342360`
 
-[Ishwaran and James, 2001] H. Ishwaran and L. F. James. Gibbs Sampling Methods for Stick-Breaking Priors. Journal of the American Statistical Association, 96(453), 161–173, 2001 
+**[Ishwaran and James, 2001]** H. Ishwaran and L. F. James. Gibbs Sampling Methods for Stick-Breaking Priors. Journal of the American Statistical Association, 96(453), 161–173, 2001 
 `doi:10.1198/016214501750332758`
 
-[Lartillot and Phillipe, 2004] N. Lartillot and H. Philippe. A Bayesian mixture model for across-site heterogeneities in the amino-acid replacement process. Molecular Biology and Evolution}, 21(6):1095-1109, 2004.
+**[Lartillot and Phillipe, 2004]** N. Lartillot and H. Philippe. A Bayesian mixture model for across-site heterogeneities in the amino-acid replacement process. Molecular Biology and Evolution}, 21(6):1095-1109, 2004.
 `doi:10.1093/molbev/msh112`
 
 
-[Miller and Harrison, 2014] J. W. Miller and 
+**[Miller and Harrison, 2014]** J. W. Miller and 
 M. T. Harrison. Inconsistency of Pitman-Yor process mixtures for the number of components. Journal of Machine Learning, Res. 15, 3333–3370, 2014
 `doi:10.48550/arXiv.1309.0024`
 
-[Onogi et al., 2011] A. Onogi, M. Nurimoto, and M. Morita. Characterization of a Bayesian genetic clustering algorithm based on a Dirichlet process prior and comparison among Bayesian clustering methods. BMC Bioinformatics, 12(1):263, 2011.
+**[Onogi et al., 2011]** A. Onogi, M. Nurimoto, and M. Morita. Characterization of a Bayesian genetic clustering algorithm based on a Dirichlet process prior and comparison among Bayesian clustering methods. BMC Bioinformatics, 12(1):263, 2011.
 `doi:10.1186/1471-2105-12-263`
 
-[Pella and Masuda, 2006] J. Pella and M. Masuda. The Gibbs and split-merge sampler for population mixture analysis from genetic data with incomplete baselines. Canadian Journal of Fisheries and Aquatic Sciences, 63(3):576-596, 2006
+**[Pella and Masuda, 2006]** J. Pella and M. Masuda. The Gibbs and split-merge sampler for population mixture analysis from genetic data with incomplete baselines. Canadian Journal of Fisheries and Aquatic Sciences, 63(3):576-596, 2006
 `doi:10.1139/f05-224`
 
-[Pitman, 1994] J. Pitman. Exchangeable and Partially Exchangeable Random Partitions, Probability Theory and Related Fields 102, 145–158, 1995.
+**[Pitman, 1994]** J. Pitman. Exchangeable and Partially Exchangeable Random Partitions, Probability Theory and Related Fields 102, 145–158, 1995.
 `doi:10.1007/BF01213386`
 
-[Pitman and Yor, 1997]  J. Pitman and M. Yor. The two-parameter Poisson-Dirichlet distribution derived from a stable subordinator. The Annals of Probability, 25(2):855-900, 1997
+**[Pitman and Yor, 1997]**  J. Pitman and M. Yor. The two-parameter Poisson-Dirichlet distribution derived from a stable subordinator. The Annals of Probability, 25(2):855-900, 1997
 `doi:10.1214/aop/1024404422`
 
-[Pitman, 2002] J. Pitman. Combinatorial Stochastic Processes, Technical Report, Technical Report 621, Department of Statistics, UC Berkeley, 2002.
+**[Pitman, 2002]** J. Pitman. Combinatorial Stochastic Processes, Technical Report, Technical Report 621, Department of Statistics, UC Berkeley, 2002.
 `url: http://works.bepress.com/jim_pitman/`
 
-[West et al., 1994] M. West, P. Muller, and M. D. Escobar. Hierarchical priors and mixture models, with application in regression and density estimation. In P. Freeman and A. F. Smith, editors,  Aspects of Uncertainty: A Tribute to D.V. Lindley, pages 363-386. Wiley, 1994.
+**[West et al., 1994]** M. West, P. Muller, and M. D. Escobar. Hierarchical priors and mixture models, with application in regression and density estimation. In P. Freeman and A. F. Smith, editors,  Aspects of Uncertainty: A Tribute to D.V. Lindley, pages 363-386. Wiley, 1994.

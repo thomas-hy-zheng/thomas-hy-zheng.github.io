@@ -73,7 +73,7 @@ $$\boldsymbol{\theta}_{\text{init}} = \big [ P(S_1 = 1), P(S_1=2), \dots, P(S_1=
 
 which encodes for the initial behavioural state of the dog, and a *transition probabilities matrix*: a matrix $\boldsymbol{\theta}\_{\text{trans}_{N\times N}}$ such that 
 
-$$\boldsymbol{\theta}_{\text{trans}_{i,j}} = P(S_t = i \mid S_{t-1}= j)$$\,.
+$$\boldsymbol{\theta}_{\text{trans}_{i,j}} = P(S_t = i \mid S_{t-1}= j)\,.$$
 
 The transition probabilities matrix encodes for how the dog moves between different behavioural states.
 

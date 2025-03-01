@@ -610,7 +610,7 @@ viterbi <- function(tpm, densities, prior.probs, data)
 
 ### References
 
-Becker, M., (2011) \textit{Why do dogs pant?} Available at: 
+Becker, M., (2011) *Why do dogs pant?* Available at: 
 `https://www.vetstreet.com/dr-marty-becker/dog-behavior-decoded-why-do-dogs-pant`
 (Accessed 10/12/23)
 
@@ -641,7 +641,7 @@ O’Brien, C., Tharion, W. J., Karis, A. J., & Sullivan, H. M. (2020). 'Predicti
 Pohle, J., Langrock, R., van Beest, F. M., & Schmidt N. M., (2017) Selecting the Number of States in Hidden Markov Models: Pragmatic Solutions Illustrated Using Animal Movement. *Journal of Agricultural, Biological, and Environmental Statistics*, 22(3) 270-293.
 
 
-R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. `https://www.R-project.org/.`
+R Core Team (2021). `R`: A language and environment for statistical computing. `R` Foundation for Statistical Computing, Vienna, Austria. `https://www.R-project.org/.`
 
 
 Roebuck, P., (2014) rwt: Rice Wavelet Toolbox Wrapper., R package, archived: accessible from `https://cran-archive.r-project.org/web/checks/2023/2023-01-09_check_results_rwt.html`

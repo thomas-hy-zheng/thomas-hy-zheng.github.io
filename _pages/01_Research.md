@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Research
+title: Machine Learning Projects
 permalink: /research/
 usemathjax: true
 ---
-Here are some interesting research projects.
+Here are some interesting research projects in machine learning and statistics.
 
 ### Consistency Results in Estimating the Number of Clusters
 *Supervised by A/Prof Clara Grazian*.  
@@ -24,4 +24,4 @@ Here are some interesting research projects.
 ### Bayesian Model Selection for Logistic Regression via Variational Bayesian Interference
 *Supervised by A/Prof John Ormerod.*  
 We develop a novel method of performing simultaneous model selection and regression using the reverse collapsed variational Bayesian method. Our algorithm outperforms $k$-NN and random forests in cross-validation MSE performance, and is available as an <code>R</code> package.   
-[Summary]({{ site.baseurl }}/research/pitman-summ) \| [Full Report]({{ site.baseurl }}/research/pitman-full) \| [Code]({{ site.baseurl }}/research/pitman-full)
+[Summary]({{ site.baseurl }}/research/vb-summ) \| [Full Report]({{ site.baseurl }}/research/vb-full) \| [Code]({{ site.baseurl }}/research/vb-full)
