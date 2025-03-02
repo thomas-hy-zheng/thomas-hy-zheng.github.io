@@ -14,6 +14,8 @@ $$\newcommand{\apxpropto}{\underset{\sim}{\propto}}$$
 
 For a summary of the project, see [here]({{ site.baseurl }}/research/vb-summ).
 
+For the complementary <code>R</code> package, see [here](https://github.com/thomas-hy-zheng/cvbdl).
+
 ### Abstract
 We apply variational Bayes and reverse collapsed variational Bayes methodologies to perform simultaneous model selection and coefficient estimation in the logistic regression context. We then explore the effect of the model's hyperparameters on properties like model sparsity and compare our RCVB model's cross-validation performance to some alternative reduced models derived from stepwise AIC on low-dimensional data. We also compare against some random forest and $k$-NN models on high-dimensional data.   
 

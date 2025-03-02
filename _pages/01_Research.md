@@ -24,4 +24,4 @@ Here are some interesting research projects in machine learning and statistics.
 ### Bayesian Model Selection for Logistic Regression via Variational Bayesian Interference
 *Supervised by A/Prof John Ormerod.*  
 We develop a novel method of performing simultaneous model selection and regression using the reverse collapsed variational Bayesian method. Our algorithm outperforms $k$-NN and random forests in cross-validation MSE performance, and is available as an <code>R</code> package.   
-[Summary]({{ site.baseurl }}/research/vb-summ) \| [Full Report]({{ site.baseurl }}/research/vb-full) \| [Code]({{ site.baseurl }}/research/vb-full)
+[Summary]({{ site.baseurl }}/research/vb-summ) \| [Full Report]({{ site.baseurl }}/research/vb-full) \| [Code](https://github.com/thomas-hy-zheng/cvbdl).

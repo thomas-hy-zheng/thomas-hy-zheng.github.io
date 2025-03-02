@@ -13,6 +13,8 @@ $$\newcommand{\Bs}[1]{\boldsymbol{#1}}$$
 
 This is a short summary and introduction to the work. For the full project, see [here]({{ site.baseurl }}/research/vb-full).
 
+For the complementary <code>R</code> package, see [here](https://github.com/thomas-hy-zheng/cvbdl).
+
 ### Table of Contents
 
 1. [Background](#background)
