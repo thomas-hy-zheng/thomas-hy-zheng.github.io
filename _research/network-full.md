@@ -15,14 +15,23 @@ $$\newcommand{\Bf}[1]{\mathbf{#1}}$$
 $$\newcommand{\Bs}[1]{\boldsymbol{#1}}$$
 
 ### Abstract
-<!-- Working dogs are highly susceptible to heat stress because they engage in high-intensity activities, while they are bred to show resilience and ignore discomfort.
-We attempt to develop a quantitative model to predict the onset of heat stress in working dogs of the Kelpie breed using ECG, respiratory excursion, and temperature data collected from the dogs as they exercise throughout the day. We do this by fitting some hidden Markov models to the denoised data. 
-We interpret the dogs' underlying behavioural state by matching the estimated state sequence from the hidden Markov model with the activities the dogs engaged in at that time.
-We also evaluate the usefulness and tradeoffs of the different sensors for this analysis. -->
+We introduce a new approach to performing community detection on networks. Our method involves creating many different partitions using the Louvain algorithm optimising over a sample of resolution parameters, and then iterating over the graph until we obtain consensus. We show that this method outperforms some other algorithms in benchmark graphs generated from the stochastic block model. 
 
 ### Table of Contents
 
 1. [Introduction](#introduction)
+2. [Methodology](#methodology)
+    1. [Sampling Resolutions](#sampling-resolutions)
+    2. [Implementation](#implementation)
+    3. [Evaluation](#evaluation)
+    4. [Bootstrapping](#bootstrapping-from-the-ppi)
+3. [Results](#results)
+    1. [The MSE](#the-mean-squared-error-mse)
+    2. [Hyperparameter Tuning](#hyperparameter-tuning-results)
+    3. [Comparison to Other Methods](#comparison-to-other-methods)
+4. [Limitations and Future Directions](#limitations-and-future-directions)
+5. [Conclusion](#conclusion)
+6. [References](#references)
 
 ### Introduction
 

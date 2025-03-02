@@ -14,7 +14,7 @@ Here are some interesting research projects in machine learning and statistics.
 ### Sampling Approaches to Graph Clustering and Evaluation on the StringDB PPI
 *Supervised by Prof Georg Gottwald*.  
  We explore a new approach to clustering networks by sampling from a distribution of possible modularity resolutions, computing the Louvain partition for each resolution, and then taking a consensus result. We then explore a way of evaluating our clusters with stochastic block models.  
-[Summary]({{ site.baseurl }}/research/network-summ) \| [Full Report]({{ site.baseurl }}/research/network-full)
+[Full Report]({{ site.baseurl }}/research/network-full)
 
 ### Hidden Markov Models for Analysing Stress Levels in Working Dogs
 *Supervised by A/Prof Clara Grazian, funded by Australian Mathematical Sciences Institute.*  
