@@ -18,7 +18,16 @@ I have won a few prizes and scholarships for performance in higher mathematics a
 (November 2023)
 
 Faculty of Science Dean's Honours List Prize, for highest average mark in science cohort
-(July 2024)
+(July 2024, July 2025)
+
+John Coutts Scholarship, for highest average mark in science cohort
+(March 2025)
+
+George Allen Scholarship, for best performance in senior mathematics in cohort,
+(April 2025)
+
+Applied Probability Trust Prize, for best score in Stochastics and Time Series analysis,
+(April 2025)
 
 Barker Prize, for highest average mark in mathematics in cohort     
 (April 2023, April 2024)

@@ -9,8 +9,6 @@ usemathjax: true
 
 ### Supervised by Prof Georg Gottwald ~ Dec 2024
 
-For a summary of the project, see [here]({{ site.baseurl }}/research/network-summ).
-
 $$\newcommand{\Bf}[1]{\mathbf{#1}}$$
 $$\newcommand{\Bs}[1]{\boldsymbol{#1}}$$
 
